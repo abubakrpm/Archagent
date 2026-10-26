@@ -38,7 +38,7 @@ PROVIDERS: dict[str, Provider] = {
                 "nvidia/nemotron-3-ultra-550b-a55b:free", "google/gemma-4-31b-it:free",
                 "cohere/north-mini-code:free"),
         free=True, max_output_tokens=16_000, key_url="https://openrouter.ai/keys",
-        extra_headers={"HTTP-Referer": "https://github.com/saadhussain07/archagent", "X-Title": "ArchAgent"},
+        extra_headers={"HTTP-Referer": "https://github.com/abubakrpm/archagent", "X-Title": "ArchAgent"},
         note="Free: ~20 requests/min, ~50/day. Pick a model that supports tool calling."),
     "gemini": Provider(
         key="gemini", label="Google Gemini - free tier (practice)",
